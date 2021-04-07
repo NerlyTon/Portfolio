@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&family=Varela&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -16,8 +15,9 @@
 .navbar {
   position: fixed;
   width: 100%;
-  background: black;
-  font-family: "Ubuntu", sans-serif;
+  padding: 15px 0;
+  background: white;
+  font-family: "Montserrat", sans-serif;
 }
 
 .navbar .max-width {
@@ -27,7 +27,7 @@
 }
 
 .navbar .logo a {
-  color: white;
+  color: black;
   font-size: 35px;
   font-weight: 600;
 }
@@ -38,5 +38,20 @@
 }
 
 .navbar .menu li a {
-  color: white;
+  color: black;
+  font-size: 18px;
+  font-weight: 300;
+  margin-left: 25px;
+}
+
+.home {
+  display: flex;
+  height: 100vh;
+  color: black;
+  min-height: 500px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.home .max-width {
+  margin: auto 0 auto 40px;
 }

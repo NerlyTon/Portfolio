@@ -10,18 +10,21 @@
   max-width: 1300px;
   padding: 0 80px;
   margin: auto;
+  /* position: absolute; */
+  /* right: 10px;
+  top: 10px; */
 }
 
 .navbar {
   position: fixed;
   width: 100%;
   padding: 30px 0;
-  /* background: white; */
   font-family: "Montserrat", sans-serif;
+  transition: all 0.3s ease;
 }
 
 .navbar.sticky {
-  padding: 30px 0;
+  padding: 15px 0;
   background: pink;
 }
 
@@ -35,6 +38,9 @@
   color: black;
   font-size: 35px;
   font-weight: 600;
+  position: absolute;
+  left: 10px;
+  top: 10px;
 }
 
 .navbar .logo a span {
@@ -50,12 +56,30 @@
   color: black;
   font-size: 18px;
   font-weight: 300;
-  margin-left: 25px;
+  /* margin-left: 25px; */
   transition: color 0.3s ease;
 }
 
 .navbar .menu li a:hover {
   color: rgb(236, 129, 147);
+}
+
+.menu-btn div {
+  height: 4px;
+  background-color: black;
+  margin: 5px 0;
+  border-radius: 10px;
+}
+
+.menu-btn {
+  width: 30px;
+  display: block;
+  margin: 1em 0 0 1em;
+  display: none;
+}
+
+.one .two .three {
+  width: 30px;
 }
 
 .home {
@@ -85,4 +109,35 @@
 .home .home-content .text-3 span {
   color: rgb(236, 129, 147);
   font-weight: 400;
+}
+
+@media (max-width: 945px) {
+  .max-width {
+    padding: 0 50px;
+  }
+  .menu-btn {
+    display: block;
+    z-index: 999;
+  }
+  .navbar .menu {
+    position: fixed;
+    height: 100vh;
+    width: -100%;
+    left: 0;
+    top: 0;
+    background-color: pink;
+    text-align: center;
+    padding-top: 80px;
+  }
+  .navbar .menu.active {
+    left: 0;
+  }
+  .navbar .menu li {
+    display: block;
+  }
+  .navbar .menu li a {
+    display: inline-block;
+    margin: 20px 0;
+    font-size: 25px;
+  }
 }

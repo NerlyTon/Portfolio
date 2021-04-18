@@ -10,7 +10,7 @@
   max-width: 1300px;
   padding: 0 80px;
   margin: auto;
-  /* position: absolute; */
+  position: center;
   /* right: 10px;
   top: 10px; */
 }
@@ -34,18 +34,18 @@
   justify-content: space-between;
 }
 
-.navbar .logo a {
+/* .navbar .logo a {
   color: black;
   font-size: 35px;
   font-weight: 600;
-  position: absolute;
+  /* position: absolute;
   left: 10px;
-  top: 10px;
-}
+  top: 10px; */
+/* } */
 
-.navbar .logo a span {
+/* .navbar .logo a span {
   color: rgb(236, 129, 147);
-}
+}  */
 
 .navbar .menu li {
   list-style: none;

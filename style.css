@@ -174,6 +174,10 @@ section {
   color: rgb(236, 129, 147);
 }
 
+.about .about-content .right p {
+  text-align: justify;
+}
+
 @media (max-width: 945px) {
   .max-width {
     padding: 0 10px;
@@ -203,5 +207,9 @@ section {
     display: inline-block;
     margin: 20px 0;
     font-size: 25px;
+  }
+
+  .about .about-content .column {
+    width: 50%;
   }
 }

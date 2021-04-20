@@ -142,11 +142,36 @@ section {
   transform: translateX(-50%);
 }
 
+.about .about-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about .about-content .left {
+  width: 45%;
+}
+
 .about .about-content .column-left img {
-  height: 400px;
+  height: 550px;
   width: 400px;
   object-fit: cover;
   border-radius: 6px;
+}
+
+.about .about-content .right {
+  width: 55%;
+}
+
+.about .about-content .right .text {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.about .about-content .right .text span {
+  color: rgb(236, 129, 147);
 }
 
 @media (max-width: 945px) {

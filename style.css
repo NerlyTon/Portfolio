@@ -117,7 +117,8 @@ section {
   padding: 100px 0;
 }
 
-.about {
+.about,
+.projects {
   font-family: "Montseratt", sans-serif;
 }
 
@@ -131,7 +132,7 @@ section {
   font-family: "Montseratt", sans-serif;
 }
 
-.about .about-title::before {
+.section .title::before {
   content: "";
   position: absolute;
   bottom: 0px;

@@ -118,7 +118,8 @@ section {
 }
 
 .about,
-.projects {
+.projects,
+.contact {
   font-family: "Montseratt", sans-serif;
 }
 
@@ -144,7 +145,8 @@ section .title::before {
 }
 
 .about .about-content,
-.projects .projects-content {
+.projects .projects-content,
+.contact .contact-content {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -219,6 +221,20 @@ section .title::before {
   font-size: 25px;
   font-weight: 500;
   margin: 10px 0 7px 0;
+}
+
+.contact .contact-content .column {
+  width: calc(50% - 30px);
+}
+
+.contact .contact-content .text {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.contact .contact-content .column-left p {
+  text-align: justify;
 }
 
 @media (max-width: 1300px) {

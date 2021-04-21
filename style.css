@@ -178,6 +178,19 @@ section {
   text-align: justify;
 }
 
+@media (max-width: 1300px) {
+  .home .max-width {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 1104px) {
+  .about .about-content .column-left img {
+    height: 500px;
+    width: 350px;
+  }
+}
+
 @media (max-width: 945px) {
   .max-width {
     padding: 0 10px;
@@ -209,7 +222,21 @@ section {
     font-size: 25px;
   }
 
+  .max-width {
+    max-width: 800px;
+  }
+
   .about .about-content .column {
-    width: 50%;
+    width: 100%;
+  }
+
+  .about .about-content .column-left {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 60px;
+  }
+
+  .about .about-content .column-right {
+    flex: 100%;
   }
 }

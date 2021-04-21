@@ -35,19 +35,6 @@
   justify-content: space-between;
 }
 
-/* .navbar .logo a {
-  color: black;
-  font-size: 35px;
-  font-weight: 600;
-  /* position: absolute;
-  left: 10px;
-  top: 10px; */
-/* } */
-
-/* .navbar .logo a span {
-  color: rgb(236, 129, 147);
-}  */
-
 .navbar .menu li {
   list-style: none;
   display: inline-block;
@@ -119,7 +106,8 @@ section {
 
 .about,
 .projects,
-.contact {
+.contact,
+footer {
   font-family: "Montseratt", sans-serif;
 }
 
@@ -313,6 +301,12 @@ section .title::before {
 .right form .button-area button:hover {
   color: rgb(236, 129, 147);
   background: none;
+}
+
+footer {
+  background: #111;
+  padding: 20px 23px;
+  color: #fff;
 }
 
 @media (max-width: 1300px) {

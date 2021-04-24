@@ -1,6 +1,7 @@
 const nav = document.querySelector('.navbar')
 const up = document.querySelector('.scroll-up-btn')
 const menuBtn = document.querySelector('.menu-btn')
+// const cube = document.querySelector('card-1')
 // const menu = document.getElementsByClassName('.btn')
 
 
@@ -31,6 +32,13 @@ menuBtn.addEventListener('click', function(e) {
     console.log(document.querySelector('.navbar .menu'))
     document.querySelector('.navbar .menu').classList.toggle("active")
 })
+
+// cube.addEventListener('click', function(e) {
+//     // console.log(e.target)
+//     // console.log(document.querySelector('.navbar .menu'))
+    
+// })
+
 
 // menu.addEventListener('click', function(e) {
 //     console.log(e.target)

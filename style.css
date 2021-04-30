@@ -70,9 +70,13 @@ html {
   padding: 0 80px;
   margin: auto;
   position: center;
-  color: black;
+  color: white;
   /* right: 10px;
   top: 10px; */
+}
+
+.col-8 .navbar .max-width .menu {
+  color: white;
 }
 
 /* .navbar {
@@ -82,7 +86,7 @@ html {
   padding: 30px 0;
   font-family: "Montseratt", sans-serif;
   /* color: black; */
-  transition: all 0.3s ease;
+  /* transition: all 0.3s ease; */
   /* background: transparent; */
 /* } */ 
 
@@ -98,7 +102,7 @@ html {
   align-items: center;
   justify-content: space-between;
   /* background: transparent; */
-} */
+/* }  */
 
 /* .navbar .menu li {
   list-style: none;
@@ -154,27 +158,27 @@ html {
   width: 30px;
 }
 
-.home {
+/* .home {
   /* display: flex; */
-  height: 100vh;
+  /* height: 100vh;
   color: black;
   min-height: 200px;
   font-family: "Montseratt", sans-serif;
-}
+} */ 
 
 .home .max-width {
-  position: absolute;
+  /* position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
-  right: 0;
-  display: flex;
+  right: 0; */
+  /* display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
   text-align: center;
   /* margin: auto 0 auto 40px; */
-}
+} 
 
 .home .home-content .text-1 {
   font-size: 40px;

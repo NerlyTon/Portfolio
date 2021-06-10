@@ -70,10 +70,14 @@ html {
   max-width: 1300px;
   padding: 0 80px;
   margin: auto;
-  position: center;
+  
   color: white;
   /* right: 10px;
   top: 10px; */
+}
+
+.max-width .menu {
+  text-align: left;
 }
 
 a {

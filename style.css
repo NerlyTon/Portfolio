@@ -1,4 +1,4 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&family=Varela&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&family=Varela&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -9,12 +9,13 @@
   display: grid;
   height: 100vh;
   grid-template-columns: .5fr 2fr;
-  grid-template-rows: .2fr 2fr 1fr;
+  grid-template-rows: .1fr 2fr 1fr;
   background-color: darkgray;
   grid-template-areas:
     "nav nav"
     "sidebar main"
     "sidebar bottom";
+  font-family: "Montseratt", sans-serif;
   
 }
 
@@ -32,19 +33,32 @@
 
 nav {
   grid-area: nav;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 main {
   grid-area: main;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
 }
 
 .grid-item-1 {
   grid-column: 1 -1;
   grid-area: sidebar;
+  display: flex;
+  align-items: start;
+  justify-content: center;
 }
 
 .grid-item-2 {
-  grid-area: bottom
+  grid-area: bottom;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
 }
 /* $grid-breakpoints: (
   xs: 0,
